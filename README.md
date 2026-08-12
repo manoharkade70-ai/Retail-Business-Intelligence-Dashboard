@@ -288,19 +288,19 @@ A dedicated Date Table was also used for time-based analysis such as:
 
 # 🔄 Project Workflow
 
-
+```text
 Retail Transaction Data
-          ↓
-      SQL Analysis
-          ↓
- Business Performance Analysis
-          ↓
-     Power BI Data Model
-          ↓
-       DAX Measures
-          ↓
-  Interactive Power BI Dashboard
-          ↓
-    Business Insights
-          ↓
- Business Recommendations
+        ↓
+    SQL Analysis
+        ↓
+Business Performance Analysis
+        ↓
+  Power BI Data Model
+        ↓
+    DAX Measures
+        ↓
+Interactive Power BI Dashboard
+        ↓
+   Business Insights
+        ↓
+Business Recommendations
