@@ -304,3 +304,28 @@ Interactive Power BI Dashboard
    Business Insights
         ↓
 Business Recommendations
+
+
+
+**After those closing backticks**, add this:
+
+```markdown
+---
+
+# 📷 Dashboard Preview
+
+## Executive Overview
+
+![Executive Overview](./Screenshots/executive-overview.png)
+
+## Regional & Sales Analysis
+
+![Regional & Sales Analysis](./Screenshots/regional-sales-analysis.png)
+
+## Product & Profitability Analysis
+
+![Product & Profitability Analysis](./Screenshots/product-profitability-analysis.png)
+
+## Customer & Business Insights
+
+![Customer & Business Insights](./Screenshots/customer-business-insights.png)
