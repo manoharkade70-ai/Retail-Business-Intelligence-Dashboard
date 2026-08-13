@@ -108,8 +108,8 @@ The SQL analysis provided the analytical foundation for the Power BI dashboard.
 - Top-N and loss-making analysis
 
 The project contains 22 business-oriented SQL analyses covering sales, profitability, products, customers, regions, categories, trends, shipping performance, and management-level insights.
----
 
+---
 # 📊 Power BI Dashboard
 
 The Power BI report contains four analytical pages.
