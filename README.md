@@ -1,10 +1,10 @@
-# Retail Business Intelligence Dashboard
+# Retail Business Intelligence & Reporting Automation
 
 ## 📊 Project Overview
 
-This project analyzes retail sales performance using SQL and Power BI to understand sales, profitability, regional performance, product performance, customer performance, and shipping operations.
+This project is a retail business intelligence and reporting workflow that transforms raw retail transaction data into a validated, analysis-ready dataset and actionable business insights.
 
-The project combines SQL-based business analysis with an interactive 4-page Power BI dashboard designed to turn transactional retail data into actionable business insights.
+Python and Pandas are used for data preparation, MySQL is used for structured database storage and SQL business analysis, and Power BI with DAX is used to build an interactive four-page dashboard for business decision-making.
 
 ---
 
@@ -46,10 +46,19 @@ The dataset covers multiple years of retail transactions and is used for both SQ
 
 ## 🛠️ Tools & Technologies
 
+### Programming & Data Analysis
+
 - Python
 - Pandas
+
+### Database & SQL
+
 - MySQL
 - MySQL Workbench 8.0 CE
+- SQL
+
+### Business Intelligence
+
 - Power BI
 - DAX
 
@@ -86,6 +95,19 @@ SQL was used to analyze the retail transaction data and answer business-oriented
 
 The SQL analysis provided the analytical foundation for the Power BI dashboard.
 
+### SQL Techniques Demonstrated
+
+- Aggregations and `GROUP BY`
+- `HAVING` and business filtering
+- `CASE` expressions
+- `COUNT(DISTINCT)`
+- Common Table Expressions (CTEs)
+- Window functions
+- `LAG()` for year-over-year analysis
+- Date-based analysis using `YEAR()` and `MONTH()`
+- Top-N and loss-making analysis
+
+The project contains 22 business-oriented SQL analyses covering sales, profitability, products, customers, regions, categories, trends, shipping performance, and management-level insights.
 ---
 
 # 📊 Power BI Dashboard
@@ -290,20 +312,24 @@ A dedicated Date Table was also used for time-based analysis such as:
 # 🔄 Project Workflow
 
 ```text
-Retail Transaction Data
-        ↓
-    SQL Analysis
-        ↓
-Business Performance Analysis
-        ↓
-  Power BI Data Model
-        ↓
-    DAX Measures
-        ↓
-Interactive Power BI Dashboard
-        ↓
-   Business Insights
-        ↓
+Raw Retail Data
+       ↓
+Python & Pandas Data Preparation
+       ↓
+Processed Dataset
+       ↓
+MySQL Database
+       ↓
+SQL Business Analysis
+       ↓
+Power BI Data Model
+       ↓
+DAX Measures
+       ↓
+Interactive 4-Page Dashboard
+       ↓
+Business Insights
+       ↓
 Business Recommendations
 ```
 
