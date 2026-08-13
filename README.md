@@ -46,11 +46,12 @@ The dataset covers multiple years of retail transactions and is used for both SQ
 
 ## 🛠️ Tools & Technologies
 
-- SQL
+- Python
+- Pandas
+- MySQL
 - MySQL Workbench 8.0 CE
 - Power BI
 - DAX
-- Microsoft Excel
 
 ---
 
