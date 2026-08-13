@@ -4,7 +4,7 @@
 
 This project is a retail business intelligence and reporting workflow that transforms raw retail transaction data into a validated, analysis-ready dataset and actionable business insights.
 
-Python and Pandas are used for data preparation, MySQL is used for structured database storage and SQL business analysis, and Power BI with DAX is used to build an interactive four-page dashboard for business decision-making.
+Python and Pandas are used for data preparation, MySQL is used for structured database storage and business-oriented SQL analysis, and Power BI with DAX is used to build an interactive four-page dashboard for business decision-making.
 
 ---
 
@@ -97,14 +97,14 @@ The SQL analysis provided the analytical foundation for the Power BI dashboard.
 
 ### SQL Techniques Demonstrated
 
-- Aggregations and `GROUP BY`
-- `HAVING` and business filtering
-- `CASE` expressions
-- `COUNT(DISTINCT)`
+- Aggregations and GROUP BY
+- HAVING and business filtering
+- CASE expressions
+- COUNT(DISTINCT)
 - Common Table Expressions (CTEs)
 - Window functions
-- `LAG()` for year-over-year analysis
-- Date-based analysis using `YEAR()` and `MONTH()`
+- LAG() for year-over-year analysis
+- Date-based analysis using YEAR() and MONTH()
 - Top-N and loss-making analysis
 
 The project contains 22 business-oriented SQL analyses covering sales, profitability, products, customers, regions, categories, trends, shipping performance, and management-level insights.
@@ -201,6 +201,12 @@ Helps identify valuable customers, loss-making customers, and differences in sal
 
 # 💡 Key Business Insights
 
+### Overall Business Performance
+
+The business generated approximately $12.64M in sales and $1.47M in profit, resulting in an overall profit margin of 11.61%.
+
+Although the business is profitable overall, the analysis identified several areas of weak profitability across regions, products, and customers.
+
 ### Sales and Profit Growth
 
 The business shows an overall upward trend in sales and profit across the analyzed years.
@@ -219,6 +225,8 @@ Some regions generate strong sales and profitability, while certain region-categ
 
 This demonstrates the importance of analyzing profitability alongside revenue.
 
+The analysis identified 3 loss-making regions, highlighting areas requiring further investigation.
+
 ---
 
 ### Product Profitability
@@ -233,11 +241,15 @@ The dashboard separates products into:
 
 This allows product performance to be evaluated using both revenue and profitability.
 
+Furniture recorded the lowest category-level profit margin at approximately 6.94%, while Tables recorded an overall profit margin of approximately −8.46%.
+
 ---
 
 ### Loss-Making Products
 
 The Bottom 10 Loss-Making Products analysis identifies products that generate negative profit.
+
+The analysis identified 675 loss-making products across the dataset.
 
 These products should be investigated further based on factors such as:
 
@@ -281,7 +293,7 @@ High revenue should not automatically be treated as strong performance. Products
 
 ### 4. Review discount strategy
 
-Analyze whether high discounts are contributing to negative or low-margin transactions.
+Investigate the relationship between discount levels and profitability, particularly for low-margin and loss-making products.
 
 ### 5. Monitor customer profitability
 
